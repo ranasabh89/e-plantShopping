@@ -27,7 +27,7 @@ function CartItem({ onNav }) {
   return (
     <div>
       <Navbar onNav={onNav} />
-      <main className="cart">
+      <main className="cart cart-container">
         <h2>Shopping Cart</h2>
         {items.length === 0 && <p>Your cart is empty. Browse the plants to add some.</p>}
         {items.map((item) => (

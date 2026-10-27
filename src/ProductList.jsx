@@ -32,7 +32,7 @@ export function Navbar({ onNav }) {
         <button onClick={() => onNav('home')}>Home</button>
         <button onClick={() => onNav('plants')}>Plants</button>
         <button onClick={() => onNav('cart')} aria-label={`Cart, ${count} items`}>
-          🛒 Cart <span className="cart-count">{count}</span>
+          🛒 Cart <span className="cart-count cart_quantity_count">{count}</span>
         </button>
       </div>
     </nav>

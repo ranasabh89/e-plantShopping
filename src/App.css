@@ -1,6 +1,7 @@
 :root { --green:#2f6b4f; --leaf:#e8f1ea; --ink:#1d2b24; }
 * { box-sizing: border-box; }
 body { margin:0; font-family:Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--leaf); }
+.app-container { min-height:100vh; }
 .background-image { min-height:100vh; background-image:url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600'); background-position:center; background-size:cover; background-repeat:no-repeat; }
 .landing-overlay { min-height:100vh; padding:4rem 1.5rem; text-align:center; color:#fff; background:rgba(20,40,30,.6); }
 .landing-overlay h1 { font-size:clamp(2.2rem, 5vw, 3.2rem); margin:0 0 .5rem; }
